@@ -11,8 +11,8 @@ public class Main {
         Book book1 = new Book("Solid Principles", "Phillip Perks", "This book is about the solid principles of OOP", 5);
 
         ArrayList<String> illustrations = new ArrayList<>();
-        illustrations.add("/Users/perks1/Dev/my-stuff/solid/book1.jpeg");
-        illustrations.add("/Users/perks1/Dev/my-stuff/solid/book2.jpeg");
+        illustrations.add("book1.jpeg");
+        illustrations.add("book2.jpeg");
 
         IllustratedBook book2 = new IllustratedBook("Clean Code", "Uncle Bob", "This book is about clean code", 10, illustrations);
 
